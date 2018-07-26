@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="公司信息" :class="[$style.panel,cname]">
         <ul :class="$style.content">
             <li>

@@ -1,8 +1,8 @@
-<template lang="html">
+<template>
     <article class="">
         <Slider :items="items" :cname="$style.slider"/>
         <section :class="$style.list">
-            <div :class="$style.item" v-for="item in enters" :key="item.img">
+            <div v-for="item in enters" :class="$style.item" :key="item.img">
                 <router-link :to="{ name: item.href}">
                     <img :src="item.img" :alt="item.title">
                     <h4>{{ item.title }}</h4>
@@ -14,6 +14,7 @@
 
 <script>
 import Slider from "../core/slider.vue"
+
 export default {
     components: {
         Slider,
