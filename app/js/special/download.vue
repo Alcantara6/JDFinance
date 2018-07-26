@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="下载APP" :class="$style.panel">
         <section :class="$style.content">
             <div class=""/>

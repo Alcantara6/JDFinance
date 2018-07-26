@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="金融头条" :class="$style.panel">
         <section :class="$style.content">
             <swiper :options="options">
