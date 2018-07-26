@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="极速借贷" :class="$style.panel">
         <section :class="$style.content">
             <router-link :to="{ name: 'home' }">

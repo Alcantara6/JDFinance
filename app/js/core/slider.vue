@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section :class="cname">
         <swiper :options="options" :not-next-tick="options.notNextTick">
             <swiper-slide v-for="item in items" :key="item.href">
