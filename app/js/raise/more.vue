@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="更多福利" :class="$style.panel">
         <section :class="$style.content">
             <img src="//img12.360buyimg.com/jrpmobile/jfs/t7456/56/1425209238/21928/f1fe492d/599cee57Naea99020.jpg?width=250&height=330" alt="">

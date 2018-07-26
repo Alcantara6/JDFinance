@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="轮播图" :class="$style.panel">
         <section :class="$style.content">
             <Slider :items="items"/>

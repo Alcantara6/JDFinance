@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="导航条" :class="$style.panel">
         <ul :class="$style.content">
             <li>

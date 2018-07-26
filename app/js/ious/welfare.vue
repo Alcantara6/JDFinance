@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="白条福利" :class="$style.panel">
         <section :class="$style.content">
             <div :class="$style.item">

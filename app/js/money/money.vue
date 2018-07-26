@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="理财精选" :class="$style.panel">
         <section :class="$style.content">
             <dl :class="$style.item" v-for="item in items" :key="item.title">

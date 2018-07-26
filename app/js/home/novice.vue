@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="新手特权" :class="$style.panel">
         <section :class="$style.content">
             <div :class="$style.item">

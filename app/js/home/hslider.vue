@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <article class="">
         <Slider :items="items" :cname="$style.slider"/>
         <section :class="$style.list">

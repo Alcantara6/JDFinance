@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="生活服务" :class="$style.panel">
         <ul :class="$style.content">
             <li :class="$style.item">
