@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <Panel title="新品推荐" :class="$style.panel">
         <section :class="$style.content">
             <div class="arrow">更多尖货 ></div>

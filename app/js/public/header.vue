@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div :class="$style.header">
         <span :class="$style.left">
             <em>注册</em>&nbsp;|&nbsp;<em>登录</em>
@@ -9,6 +9,7 @@
 
 <script>
 import btn from "../core/btn.vue"
+
 export default {
     components: {
         btn,

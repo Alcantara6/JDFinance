@@ -1,7 +1,7 @@
-<template lang="html">
-    <Panel title="理财精选" :class="$style.panel">
+<template>
+    <Panel :class="$style.panel" title="理财精选">
         <section :class="$style.content">
-            <dl :class="$style.item" v-for="item in items" :key="item.title">
+            <dl v-for="item in items" :class="$style.item" :key="item.title">
                 <dt>{{ item.title }}<span>{{ item.sub }}</span></dt>
                 <dd>{{ item.rate }}</dd>
                 <dd>{{ item.text }}</dd>
@@ -12,6 +12,7 @@
 
 <script>
 import Panel from "../core/panel.vue"
+
 export default {
     components: {
         Panel,

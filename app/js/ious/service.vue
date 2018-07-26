@@ -1,7 +1,7 @@
-<template lang="html">
-    <Panel title="更多服务" :class="$style.panel">
+<template>
+    <Panel :class="$style.panel" title="更多服务">
         <section :class="$style.content">
-            <div :class="$style.item" v-for="item in items" :key="item.img">
+            <div v-for="item in items" :class="$style.item" :key="item.img">
                 <img :src="item.img" alt="">
                 <p>{{ item.text }}</p>
             </div>
@@ -11,6 +11,7 @@
 
 <script>
 import Panel from "../core/panel.vue"
+
 export default {
     components: {
         Panel,

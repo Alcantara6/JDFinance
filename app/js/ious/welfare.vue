@@ -1,5 +1,5 @@
-<template lang="html">
-    <Panel title="白条福利" :class="$style.panel">
+<template>
+    <Panel :class="$style.panel" title="白条福利">
         <section :class="$style.content">
             <div :class="$style.item">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t4378/62/155957680/9017/16463551/58affd58Nb5c9198e.jpg?width=120&height=120" alt="">
@@ -31,6 +31,7 @@
 
 <script>
 import Panel from "../core/panel.vue"
+
 export default {
     components: {
         Panel,

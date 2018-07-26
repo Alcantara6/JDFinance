@@ -1,5 +1,5 @@
-<template lang="html">
-    <Panel title="轮播图" :class="$style.panel">
+<template>
+    <Panel :class="$style.panel" title="轮播图">
         <section :class="$style.content">
             <Slider :items="items"/>
         </section>
@@ -9,6 +9,7 @@
 <script>
 import Panel from "../core/panel.vue"
 import Slider from "../core/slider.vue"
+
 export default {
     components: {
         Panel,
