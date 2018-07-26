@@ -1,5 +1,5 @@
-<template lang="html">
-    <Panel title="导航条" :class="$style.panel">
+<template>
+    <Panel :class="$style.panel" title="导航条">
         <ul :class="$style.content">
             <li>
                 <router-link :to="{ name: 'home'}">
@@ -37,6 +37,7 @@
 
 <script>
 import Panel from "../core/panel.vue"
+
 export default {
     components: {
         Panel,
